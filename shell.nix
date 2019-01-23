@@ -11,6 +11,8 @@ pkgs.haskell.lib.buildStackProject {
                              (callPackage ./nix/wayland.nix { } )
                              (callPackage ./nix/wayland-protocols.nix { } )
                              (callPackage ./nix/wlroots.nix { } )
+                             libGL
+                             xorg.libX11
                              xorg.pixman
                           ];
 
