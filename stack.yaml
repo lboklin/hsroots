@@ -72,5 +72,5 @@ extra-deps:
 # compiler-check: newer-minor
 
 nix:
-  enable: false
+  enable: true
   shell-file: shell.nix
